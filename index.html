@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Printer Test Pages: A Practical Guide by Derek Roga</title>
+<meta name="description" content="A practical guide to printer test pages by Derek Roga, founder of Test Print Page: which sheet matches which symptom, how to print it correctly, and how to read the result.">
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; margin: 0; color: #1c2733; background: #f7f5f0; }
+main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+h1 { font-size: 2rem; line-height: 1.2; }
+h2 { font-size: 1.25rem; margin-top: 2em; }
+p, li { font-size: 1.05rem; line-height: 1.65; }
+a { color: #0b5cad; }
+.byline { color: #5a6a78; font-size: 0.95rem; }
+footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid #d8d2c4; color: #5a6a78; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Printer Test Pages: A Practical Guide</h1>
+<p class="byline">By Derek Roga, web developer in Vilnius, Lithuania, and founder of Test Print Page and Essence Technologies.</p>
+
+<p>I spent years on support calls where the complaint was always some version of "the printer is printing wrong". It was rarely the printer. It was a clogged nozzle, a drifting alignment, an empty cartridge pretending to be full, or a driver quietly scaling the page. A proper test sheet settles the argument in about two minutes, because each sheet is built to expose one kind of fault and stay silent about the rest.</p>
+
+<h2>Start from the symptom</h2>
+<p>Printing a random colourful page tells you almost nothing. Match the sheet to what you actually see:</p>
+<ul>
+<li><strong>Something looks wrong but you cannot say what:</strong> print the Quick sheet first. It is the overall health check.</li>
+<li><strong>Colours are faded, shifted, or one colour is missing:</strong> print the Color sheet, then the CMYK sheet if you need to know which channel is failing.</li>
+<li><strong>Text is grey, blurry, or streaky:</strong> print the Black &amp; White sheet. Fine text lines and grey ramps show clogs and low toner clearly.</li>
+<li><strong>Prints look doubled, shifted, or crooked:</strong> print the Alignment sheet. It is the one people skip, and the one that fixes the most "my printer is broken" calls.</li>
+</ul>
+
+<h2>Print it correctly, or the test lies</h2>
+<p>Three settings decide whether a test sheet means anything. First, print at 100 percent scale, never "fit to page", because scaling hides alignment faults. Second, use plain paper, not photo paper, so the result matches your everyday printing. Third, pick the best quality setting your driver offers, so the printer is not the limiting factor. And choose the right paper size before you print: the sheets come in A4 and US Letter, and printing a Letter sheet on A4 silently rescales it.</p>
+
+<h2>Read the result like a mechanic</h2>
+<p>Work through the sheet in order. A clean break in one colour band points at that cartridge or nozzle row. Even fading across the whole page points at low ink or toner. Steps in the grey ramp that jump or band point at the driver quality setting. On the alignment sheet, look for the column where the lines line up: that offset is what your printer's alignment utility wants to know.</p>
+
+<h2>What a test sheet cannot fix</h2>
+<p>A test sheet diagnoses; it does not repair. If every sheet shows the same physical defect in the same place, suspect hardware: a scratched drum, a damaged fuser, or a printhead that cleaning cycles no longer revive. The sheet still earns its keep there, because you can hand it to a repair shop and skip the guesswork.</p>
+
+<h2>Get the sheets</h2>
+<p>The five sheets are free at <a href="https://testprintpage.net/">Test Print Page</a>, as PDFs in A4 and US Letter, matched to your symptom, brand-neutral for HP, Canon, Epson, Brother and other printers. No account, no uploads, no install.</p>
+
+<footer>
+<p>Derek Roga builds free, focused web tools at Essence Technologies, a small studio in Vilnius founded in 2019. His main project is <a href="https://testprintpage.net/">Test Print Page</a>.</p>
+</footer>
+</main>
+</body>
+</html>
